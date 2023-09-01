@@ -1,6 +1,6 @@
 function SortDuration(a){
     
-    let sort = a.sort((b, c) => 
+    let sort = a.sort(( b, c) => 
     b.duration - c.duration
     );
     

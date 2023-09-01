@@ -4,8 +4,7 @@ function factorial(n){
     if (n == 0 || n == 1){
         return fact;
     }else
-    if(n > 1){
-        for( var i = n; i >= 1; i--){
+    {for( var i = n; i >= 1; i--){
             fact = fact * i;
         }
         return fact;
