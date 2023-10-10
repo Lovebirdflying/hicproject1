@@ -2,7 +2,7 @@
 
 function g(arr){
   return arr.reduce((element, value)=>{
-      if(!element.gpa || element && element.gpa < value.gpa){
+      if(element.gpa < value.gpa){
          element= value
       }
       return element

@@ -3,10 +3,10 @@
 
   function specificM(arr){
 
-   const genre = arr.filter(value => value.genre === 'Action'
-     );
+   const gen = arr.filter(( value) => value.genre === 'Action'
+   );
     
-return genre
+return gen
 
   }
 
@@ -16,4 +16,5 @@ return genre
     { title: 'Movie 3', genre: 'Action' }
   ])
 
+  
 console.log(specfic)
